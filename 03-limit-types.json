@@ -1,13 +1,11 @@
 {
-  
-  "@context":{
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "dbo": "http://dbpedia.org/ontology/",
-    "dbp": "http://dbpedia.org/property/",
-    "dbr": "http://dbpedia.org/resource/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+	"@context": {
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"dbo": "http://dbpedia.org/ontology/",
+		"dbp": "http://dbpedia.org/property/",
+		"dbr": "http://dbpedia.org/resource/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-  "@explicit":true ,
-  "@type":"dbo:Person"
-  
+	"@explicit": true,
+	"@type": "dbo:Person"
 }
