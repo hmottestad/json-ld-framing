@@ -1,0 +1,72 @@
+[
+   {
+       "@id": "http://dbpedia.org/resource/Terry_Pratchett",
+       "@type": [
+           "http://dbpedia.org/ontology/Person"
+       ],
+       "http://dbpedia.org/ontology/notableWork": [
+           {
+               "@id": "http://dbpedia.org/page/Good_Omens"
+           }
+       ],
+       "http://xmlns.com/foaf/0.1/knows": [
+           {
+               "@id": "http://dbpedia.org/resource/Neil_Gaiman"
+           }
+       ],
+       "http://xmlns.com/foaf/0.1/name": [
+           {
+               "@value": "Terry Pratchet"
+           }
+       ]
+   },
+   {
+       "@id": "http://dbpedia.org/resource/Neil_Gaiman",
+       "@type": [
+           "http://dbpedia.org/ontology/Person"
+       ],
+       "http://dbpedia.org/ontology/notableWork": [
+           {
+               "@id": "http://dbpedia.org/page/Good_Omens"
+           },
+           {
+               "@id": "http://dbpedia.org/page/The_Graveyard_Book"
+           }
+       ],
+       "http://xmlns.com/foaf/0.1/name": [
+           {
+               "@value": "Neil Gaiman"
+           }
+       ]
+   },
+   {
+       "@id": "http://dbpedia.org/page/Good_Omens",
+       "@type": [
+           "http://dbpedia.org/ontology/WrittenWork"
+       ],
+       "http://dbpedia.org/property/name": [
+           {
+               "@value": "Good Omens"
+           }
+       ],
+       "http://dbpedia.org/property/releaseDate": [
+           {
+               "@type": "http://www.w3.org/2001/XMLSchema#date",
+               "@value": "1990-05-01"
+           }
+       ]
+   },
+   {
+       "@id": "http://dbpedia.org/page/The_Graveyard_Book",
+       "@type": [
+           "http://dbpedia.org/ontology/WrittenWork"
+       ],
+       "http://dbpedia.org/property/name": [
+           {
+               "@value": "The Graveyard Book"
+           }
+       ]
+   }
+]
+
+
