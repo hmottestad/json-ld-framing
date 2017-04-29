@@ -1,0 +1,66 @@
+{
+  
+  "@context":{
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbp": "http://dbpedia.org/property/",
+    "dbr": "http://dbpedia.org/resource/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    
+    "type":"@type",
+    "id":"@id",
+    
+    "name":"foaf:name",
+    "title":"dbp:name",
+
+    "books":{
+      "@id":"dbo:notableWork",
+      "@container": "@set"
+    },
+    
+    "knows":{
+      "@id":"foaf:knows",
+      "@container": "@set",
+      "@type":"@id"
+    },
+    "released":{
+      "@id":"dbp:releaseDate",
+      "@type":"xsd:date"
+    },
+    "indexedAt":"http://example.com/indexedAt"    
+
+    
+	},
+  "@explicit":true ,
+  "@type":"dbo:Person",
+  "name":{},
+  "books":{
+    "@explicit":true,
+    "title":{},
+    "released":{
+      "@default":"@null",
+      "@omitDefault":true
+    },
+    "indexedAt":{
+      "@default":"2017-03-21T17:00"
+    }
+  },
+  "knows":{
+    "@embed":false    
+  }
+  
+  
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
